@@ -73,6 +73,7 @@ public class ChatServer {
 
                 // Notify the client that the name has been accepted
                 out.println("NAMEACCEPTED " + name);
+                System.out.println(name + " has connected.");
                 
                 // Broadcast to all other clients that a new user has joined
                 for (PrintWriter writer : namesAndWriters.values()) {

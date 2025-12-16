@@ -36,9 +36,7 @@ public class ChatClient {
 
                         // Protocol handling
                         if (line.startsWith("SUBMITNAME")) {
-                            System.out.print("Enter your username: ");
-                            String name = scanner.nextLine();
-                            out.println(name);
+                            System.out.print("Enter your username: ");                            
                         } else if (line.startsWith("NAMEACCEPTED")) {
                             System.out.println("Connected! Type a message or use '/w [user] [message]' for private chat.");
                         } else if (line.startsWith("MESSAGE")) {
