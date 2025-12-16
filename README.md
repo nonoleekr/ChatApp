@@ -111,19 +111,3 @@ In Bob's terminal:
 Only Alice should see this.
 
 ---
-
-# 📸 Taking Screenshots for Your Report
-
-Make sure to capture:
-
-1. **Server window** showing:
-
-```
-The chat server is running on port 12345
-```
-
-2. **Client windows** showing:
-
-   * Usernames
-   * Chat history
-   * Broadcast and private messages working
